@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100vh;
+}
+header {
+  width: 100%;
+  height: 90px;
+  background-color: black;
+}
+main {
+  display: flex;
+  justify-content: center;
+  height: 63vh;
+}
+.rect_de_admin {
+  width: 70%;
+  height: 100%;
+  margin-top: 100px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  .partie_gauche {
+    background-color: rgba(79, 113, 200, 1);
+    border-radius: 16px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #profil_login {
+    width: 50%;
+  }
+  .partie_daroite {
+    width: 50%;
+    background-color: rgba(243, 243, 244, 1);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #title {
+    margin-top: 50px;
+    font-size: 36px;
+    font-family: sans-serif;
+    color: rgba(79, 113, 200, 1);
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  #title::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: rgba(79, 113, 200, 1);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animate 4s linear infinite;
+  }
+  @keyframes animate {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 200px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    gap: 10px;
+  }
+  input {
+    width: 40%;
+    height: 20px;
+  }
+  .donner {
+    width: 50%;
+    height: 40px;
+    border: 2px solid rgba(79, 113, 200, 1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .do {
+    outline: none;
+    width: 90%;
+    height: 30px;
+    border: none;
+    background-color: rgba(243, 243, 244, 1);
+  }
+  .choisi-type {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .type_code {
+    width: 40%;
+    height: 40px;
+    border: 2px solid rgba(79, 113, 200, 1);
+    border-radius: 5px;
+  }
+
+  .button {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 8px;
+  }
+  .BACK {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(219, 215, 215, 1);
+    color: rgba(79, 113, 200, 1);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .BACK:hover {
+    font-size: 17px;
+    background-color: rgba(219, 209, 209, 0.548);
+  }
+  .LOGIN {
+    width: 100%;
+    height: 40px;
+    color: rgba(219, 215, 215, 1);
+    background-color: rgba(79, 113, 200, 1);
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+  }
+  .LOGIN:hover {
+    font-size: 17px;
+    background-color: rgb(55, 89, 175);
+  }
+}
+footer {
+  background-color: rgba(79, 113, 200, 1);
+  width: 100%;
+  height: 150px;
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-around;
+  .phrase {
+    display: flex;
+    gap: 10px;
+  }
+  i {
+    font-size: 25px;
+  }
+  .button_mail {
+    width: 100%;
+    height: 40px;
+    background-color: blueviolet;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  .email {
+    outline: none;
+    width: 80%;
+    height: 100%;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  .ok{
+    width: 20%;
+    border: none;
+    border-left: 1px solid black;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgba(178, 223, 236, 1);
+    font-style: initial;
+  }
+}
+.DROITE {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+}
+.logo_footer {
+  width: 200px;
+}
+.CENTER{
+  color: whitesmoke;
+  display: flex;
+flex-direction: column;
+gap: 10px;
+margin-top: 30px;
+}
