@@ -371,6 +371,83 @@ textarea:valid~label{
         bottom: -10px;
         right: 45%;
 }
+footer {
+    background-image: url(./image/footre.png);
+    width: 100%;
+    height: 180px;
+    margin-top:3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+       
+  }
+  
+  footer .phrase {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+    padding-top: 7px;
+  }
+  footer .phrase h4{
+      color: #fff;
+      font-weight: lighter;
+  }
+
+  footer .DROITE{
+      margin-top: 5%;
+      margin-right: 40%;
+  }
+  
+  footer i {
+    font-size: 25px;
+
+  
+  }
+  footer .CENTER{
+      position: absolute;
+      text-align: center;
+     
+      margin-left: 14%;
+  }
+  .CENTER h3{
+      color: #fff;
+      margin-top: 22%;
+      margin-left: -50%;
+      font-weight: lighter;
+  }
+  footer .email{
+      width: 300px;
+      border: 2px solid #B2DFEC;
+      margin-top: 25%;
+      margin-left: -70%;
+
+
+  }
+  footer .ok{
+      width: 80px;
+      height: 32px;
+      border-radius: 0;
+    
+      margin-left: 140%;
+      background-color: #B2DFEC;
+      margin-top: 95%;
+     
+  }
+.button_mail{
+    margin-right: 50%;
+}
+.logo_footer{
+ width: 170px;
+ margin-top: 18%;
+ margin-left: 50%;
+}
+  
+  
+  
+  
 
 
 
