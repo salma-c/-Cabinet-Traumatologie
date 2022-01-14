@@ -17,12 +17,10 @@ const mot_de_pass = 1337;
 //   const heder = document.querySelector("header");
 //   const html = document.querySelector("html");
 //   const footer = document.querySelector("footer");
-
 //   if (window.matchMedia("(max-width:400px)").matches) {
 //     // html.style.width = "120vw";
 //     // heder.style.width = "120vw";
 //     footer.classList.add("R_footer");
-    
 //   }
 // };
 
