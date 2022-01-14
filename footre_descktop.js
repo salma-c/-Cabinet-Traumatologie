@@ -27,11 +27,10 @@ template.innerHTML = `
 </div>
 </footer>
 `;
-
 class footre_descktop extends HTMLElement {
   connectedCallback() {
     this.innerHTML = template.innerHTML;
   }
 }
-
+template.style.cssText += 'color:red;background-color:yellow;';
 customElements.define("resume-app", footre_descktop);

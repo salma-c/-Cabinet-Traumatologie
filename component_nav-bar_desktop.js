@@ -1,11 +1,5 @@
-
- 
-
-
-
-
-const template = document.createElement("template");
-template.innerHTML = `
+const templat = document.createElement("template");
+templat.innerHTML = `
 <header>
 <div class="nav-bar">
     <img src="logo.png" class="logo">
@@ -27,7 +21,7 @@ template.innerHTML = `
     
     class navbar_desktop extends HTMLElement{
         connectedCallback(){
-            this.innerHTML = template.innerHTML;
+            this.innerHTML = templat.innerHTML;
         }
     }
     customElements.define("navbar-com",navbar_desktop);
